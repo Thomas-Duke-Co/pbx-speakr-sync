@@ -1,0 +1,14 @@
+# PBX Speakr Sync Configuration
+# Copy to ~/.config/speakr/sync.conf
+
+# PBX Connection
+PBX_HOST="thomasduke.crosstalksolutions.com"
+PBX_USER="root"
+PBX_PORT="22"
+REMOTE_DIR="/var/spool/asterisk/monitor/"
+
+# Extension to sync (only recordings with this extension are uploaded)
+EXT="1104"
+
+# Local storage paths (optional - defaults shown)
+# BASE="${HOME}/pbx_recordings"
